@@ -1,0 +1,253 @@
+	
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navBar {
+	width: 100%;
+	height: 60px;
+	display: inline-block;
+	background-color: rgba(30, 30, 30, 1);
+	position: fixed;
+}
+
+.logoWrap{
+	width: 350px;
+	display: inline-block;
+}
+
+.logo {
+	width: 25px;
+	margin-left: 60px;
+	margin-top: 18px;
+	display: inline-block;
+}
+
+.lettering{
+	display: inline-block;
+	color: white;
+	font-size: 1.25em;
+	letter-spacing: .2em;
+	word-spacing: .1em;
+}
+
+.logoWrap .lettering{
+	position: fixed;
+	margin-top: 20px;
+}
+
+.career{
+	display: inline-block;
+	font-weight: 700;
+	margin-left: 20px;
+}
+
+.jump{
+	display: inline-block;
+	font-weight: 300;
+	margin-left: -10px;
+}
+
+.nav{
+	font-size: .8em;
+	float: right;
+	margin-top: 22px;
+	margin-right: 5%;
+	display: inline-block;
+	font-weight: 400;
+}
+
+#sign{
+	color: rgba(230,230,230,1);
+	margin-right: 25px;
+	padding: 6px 12px;
+	letter-spacing: .1em;
+ /*   border: 1px solid rgba(205, 205, 205, 1);*/
+}
+
+#about{
+	color: rgba(230,230,230,1);
+	margin-right: 25px;
+	letter-spacing: .1em;
+}
+
+#main{
+	color: rgba(140, 140, 140, 1);
+	margin-right: 25px;
+	padding: 4px 8px;
+	letter-spacing: .1em;
+}
+
+#account{
+	font-size: 1.25em;
+	color: rgba(230,230,230,1);
+	background-color: RGBA(37, 119, 179, 1);
+	padding: 3px 10px 6px 10px;
+	border: 2px solid rgba(205, 205, 205, 1);
+	border-radius: 20px;
+	margin-right: 35px;
+	margin-top: 10px;
+	font-weight: 300;
+}
+
+#title{
+	font-size: 2.3em;
+	margin:auto;
+	color: white;
+	font-weight: 300;
+	margin-top: -400px;
+	width: 800px;
+	line-height: 1.25em;
+	text-align: center;
+	letter-spacing: .11em;
+	word-spacing: .155em;
+}
+
+#subtitle {
+	font-size: 1em;
+	margin:auto;
+	letter-spacing: .15em;
+	color: white;
+	font-weight: 400;
+	width: 800px;
+	margin-top: 15px;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+.login{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.learn{
+	font-size: .55em;
+	color: rgba(75, 184, 209, 1);
+}
+
+#page1{
+	width: 100%;
+	min-height: 620px;
+	background: url(http://alexwyrick.com/images/BGgg1.jpg);
+	/*
+	background: url(http://alexwyrick.com/images/BGtyping.jpg);
+	background: url(http://alexwyrick.com/images/BGgg.jpg);
+	background: url(http://alexwyrick.com/images/BGfeets.jpg);
+	background: url(http://alexwyrick.com/images/BGjump.jpg);
+	background: url(https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg); GOLDEN DATE
+	background: url(https://images.unsplash.com/photo-1431538510849-b719825bf08b); NYC - needs filter
+	background: url(https://images.unsplash.com/photo-1439396087961-98bc12c21176); SF - needs filter
+	background: url(https://images.unsplash.com/photo-1431578500526-4d9613015464); FEET - needs filter
+	background: url(https://images.unsplash.com/photo-1428954376791-d9ae785dfb2d); JUMP - needs filter
+	background: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg); MAP
+	background: url(https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0); OCEAN
+	*/
+	
+ 	background-size:cover;
+ 	/*background-attachment:fixed;*/
+ 	background-position:top;
+ 	z-index: -1;
+}
+
+#mid1{
+	padding: auto;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 1.8em;
+	width:100%;
+	margin-top: 150px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	min-height: 410px;
+	background-color: rgba(240, 240, 240, 1);
+}
+
+.how{
+	color: rgba(120, 120, 120, 1);
+	font-weight: 400;
+	font-size: 2.25rem;
+	text-align: center;
+	margin-top: -20px;
+	letter-spacing: .11em;
+	word-spacing: .155em;
+	margin-bottom: 20px;
+}
+
+.point{
+	width:30%;
+	display: inline-block;
+}
+
+.icon{
+	margin: auto;
+	width:50%;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+.blurb{
+	color: rgba(115, 115, 115, 1);
+	margin: auto;
+	font-size: 1.25rem;
+	font-weight: 300;
+	text-align: center;
+	line-height: 1.35em;
+	width:250px;
+}
+
+#page2{
+	width: 100%;
+	min-height: 680px;
+	background: url(http://alexwyrick.com/images/BGtyping.jpg);
+	/*
+	background: url(http://alexwyrick.com/images/BGtyping.jpg);
+	background: url(http://alexwyrick.com/images/BGgg.jpg);
+	background: url(http://alexwyrick.com/images/BGfeets.jpg);
+	background: url(http://alexwyrick.com/images/BGjump.jpg);
+	background: url(https://images.unsplash.com/reserve/D8ijGd3CSGq4BxJ9EzTf_13976945916_fa0ce84ee3_o.jpg); GOLDEN DATE
+	background: url(https://images.unsplash.com/photo-1431538510849-b719825bf08b); NYC - needs filter
+	background: url(https://images.unsplash.com/photo-1439396087961-98bc12c21176); SF - needs filter
+	background: url(https://images.unsplash.com/photo-1431578500526-4d9613015464); FEET - needs filter
+	background: url(https://images.unsplash.com/photo-1428954376791-d9ae785dfb2d); JUMP - needs filter
+	background: url(https://images.unsplash.com/45/eDLHCtzRR0yfFtU0BQar_sylwiabartyzel_themap.jpg); MAP
+	background: url(https://images.unsplash.com/photo-1428535172630-fb1c050ac3e0); OCEAN
+	*/
+	
+ 	background-size:cover;
+ 	/*background-attachment:fixed;*/
+ 	background-position:top;
+ 	z-index: -1;
+}
+
+
+#takeAction{
+	font-size: 2.3em;
+	margin:auto;
+	color: white;
+	font-weight: 300;
+	margin-top: -500px;
+	width: 800px;
+	letter-spacing: .11em;
+	word-spacing: .155em;
+	text-align: center;
+}
+
+#detail {
+	font-size: 1em;
+	margin:auto;
+	letter-spacing: .15em;
+	color: white;
+	font-weight: 400;
+	width: 800px;
+	margin-top: 15px;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+.cf:after {
+    clear: both;
+}

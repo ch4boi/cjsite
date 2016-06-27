@@ -1,0 +1,519 @@
+	
+
+{
+	font-family: Playfair+Display;
+}
+
+body{
+	position: 1;
+	z-index: 2;
+	padding: 10px 1%;
+	background-color: #fff;
+}
+
+.nav {
+	font-size: 1.5rem;
+	background-color: RGBA(0, 0, 0, .9);
+	width: 98%;
+    position: fixed;
+    border-top: 10px solid #fff;
+    border-right: 10px solid #fff;
+    margin-top: -10px;
+    z-index: 0;
+
+}
+
+@media (max-width: 700px){
+	.nav{
+		display:none;
+	}
+}
+
+.emailIcon{
+	width: 35px;
+	position: fixed;
+	float: right;
+	z-index: 1;
+	margin-top: 8px;
+	margin-left:90%;
+}
+
+.emailIcon:hover{
+	opacity: .5;
+	background-color: #000;
+}
+
+@media (max-width: 700px){
+	.emailIcon{
+	background-color: #000;
+	opacity: .5;
+	margin-left:85%;
+}
+}
+
+.navButton:first-child { 
+	width: 35%;
+	height: 0%;
+	padding: 0;
+}
+
+.navButton {
+	width: 18%;
+	display: inline-block;
+	padding: 15px 0px;
+	border-top: 5px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+}
+
+.navButton:hover{
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+	color: black;
+	background-color: #f1f1f1;
+	text-shadow: RGBA(150, 150, 150, 1) 0 2px 2px;
+}
+
+.active {
+	color: black;
+	background-color: #f1f1f1;
+	text-shadow: RGBA(50, 50, 50, 1) 0 2px 2px;
+}
+
+.logoFont {
+	margin: auto;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 1.8em;
+	width:460px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 700px){
+.logoFont {
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 1.5em;
+	width:300px;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	}
+}
+
+#logos{
+	width: 40%;
+	margin-left:30%;
+	margin-bottom: 70px;
+}
+
+@media (max-width: 700px){
+	#logos{
+		width: 80%;
+		margin-left: 10%;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 700px){
+	.greeting{
+	padding: 20px 0;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	font-size: 2.8rem;
+	}
+}
+
+@media (max-width: 700px){
+
+#page1{
+	width: 100%;
+	min-height: 750px;
+}
+}
+
+#page1{
+	width: 100%;
+	min-height: 650px;
+	background: url(https://unsplash.imgix.net/45/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050);
+	/*
+	Lindt Coffee (http://i48.photobucket.com/albums/f210/alexwyrick/f362e246-b78e-44f8-985e-7c60d7c7597f_zps91791db6.jpg);
+	
+	Taz Winery (http://i48.photobucket.com/albums/f210/alexwyrick/4c6f5d43-8a04-4fdc-bb63-f2f5551f4720_zpse1453742.jpg);
+	
+	Cradle Mtn. (http://i48.photobucket.com/albums/f210/alexwyrick/cradleMtn_zps871844be.jpg); 
+	
+	background4 (http://i48.photobucket.com/albums/f210/alexwyrick/1346caf2-3b82-45e2-bc00-64351e0d59ae_zpscf0836f2.jpg);
+	*/
+ 	background-size:cover;
+ 	background-attachment:fixed;
+ 	background-position:top;
+ 	z-index: -1;
+}
+
+
+@media (min-width: 700px){
+.greeting{
+	padding: 30px 70px;
+	text-align: center;
+	font-size: 2.8rem;
+
+}
+}
+
+.main1{
+	padding-top: 25px;
+	padding-bottom: 40px;
+	border: none;	
+	width: 100%;
+	line-height: 2.5rem;
+	background-color: rgba(250,250,250,.9);
+	box-shadow: 1px 1px -8px rgba(50,50,50,.3);
+	display: inline-block;
+}
+
+
+@media (min-width: 700px){
+	.main1{
+	width: 400px;
+	border: solid 10px RGBA(50, 50, 50, 1);
+	margin-left: 20%;
+	margin-top: 150px;
+	margin-bottom: 200px;
+	line-height: 2.5rem;
+	box-shadow: 1px 1px 1px rgba(50,50,50,.5);
+	}
+}
+
+.main2{
+	padding-top: 10px;
+	border: none;
+	width: 100%;
+	line-height: 2.5rem;
+	text-align: center;
+	margin-bottom: 150px;
+	background-color: rgba(250,250,250,1);
+	box-shadow: 1px 1px 8px rgba(50,50,50,.9);
+	display: inline-block;
+}
+
+
+@media (min-width: 700px){
+	.main2{
+	width: 400px;
+	border: solid 10px RGBA(50, 50, 50, 1);
+	margin-left: 20%;
+	margin-top: 100px;
+	line-height: 2.5rem;
+	background-color: rgba(250,250,250,.9);
+	box-shadow: 1px 1px 8px rgba(50,50,50,.9);
+	}
+}
+
+
+@media (min-width: 700px){
+	.first{
+	padding-top: 10px;
+	}
+}
+
+a{
+
+}
+
+p{
+	margin:20px 15%;
+	line-height: 2rem;
+}
+
+.bazingaButton{
+	padding-top: 40px;
+	text-align: center;
+}
+.contactButton{
+	padding-top: 40px;
+	text-align: center;
+}
+
+.prompt{
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 15px 35px;
+	margin-bottom: 20px;
+	background-color: rgb(50,50,50);
+	box-shadow: 0 3px 0 0 #818181;
+	border-radius: 2px;
+}
+
+.prompt:hover{
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+	color: #000;
+	background-color: rgb(255,255,255);
+}
+
+.first{
+	padding-top: 20px;
+}
+
+.oneEven {
+	font-size: 1rem;
+	text-align: center;
+}
+
+.oneThree {
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.oneFive {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.oneSeven {
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.oneNine {
+	font-size: 1.9rem;
+	text-align: center;
+}
+
+.twoEven {
+	font-size: 2rem;
+	text-align: center;
+}
+
+.twoThree {
+	font-size: 2.3rem;
+	text-align: center;
+}
+
+.twoFive {
+	line-height: 3.2rem;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.twoSeven {
+	font-size: 2.7em;
+	text-align: center;
+}
+
+.highlight {
+	line-height: 3.5rem;
+}
+
+@media (min-width: 700px){
+#page2{
+
+}
+}
+
+#page2{
+	width: 100%;
+	background: url(http://i48.photobucket.com/albums/f210/alexwyrick/cradleMtn_zps871844be.jpg);
+	/*
+	Lindt Coffee (http://i48.photobucket.com/albums/f210/alexwyrick/f362e246-b78e-44f8-985e-7c60d7c7597f_zps91791db6.jpg);
+	
+	Taz Winery (http://i48.photobucket.com/albums/f210/alexwyrick/4c6f5d43-8a04-4fdc-bb63-f2f5551f4720_zpse1453742.jpg);
+	
+	Cradle Mtn. (http://i48.photobucket.com/albums/f210/alexwyrick/cradleMtn_zps871844be.jpg); 
+	
+	background4 (http://i48.photobucket.com/albums/f210/alexwyrick/1346caf2-3b82-45e2-bc00-64351e0d59ae_zpscf0836f2.jpg);
+	*/
+ 	background-size:cover;
+ 	background-attachment:fixed;
+ 	background-position:top;
+ 	z-index: 1;
+}
+
+img{
+	width: 150px;
+}
+
+a{
+text-decoration: none;
+}
+
+ul{
+	margin-bottom: 30px;
+}
+
+.country{
+	font-size: 2.2rem;
+}
+
+.webstat{
+	font-size: 1.5rem;
+	text-align: left;
+	margin-left: 25px
+}
+
+@media (min-width: 700px){
+#page3{
+
+}
+}
+
+#page3{
+	width: 100%;
+	background: url(http://www.bhmpics.com/walls/jersey_city_sunset-wide.jpg);
+	/*
+	https://ununsplash.imgix.net/uploads/1412825195419af52b492/8bc72ed7?fit=crop&fm=jpg&h=700&q=75&w=1050);
+	
+	Taz Winery (http://i48.photobucket.com/albums/f210/alexwyrick/4c6f5d43-8a04-4fdc-bb63-f2f5551f4720_zpse1453742.jpg);
+	
+	Cradle Mtn. (http://i48.photobucket.com/albums/f210/alexwyrick/cradleMtn_zps871844be.jpg); 
+	
+	background4 (http://i48.photobucket.com/albums/f210/alexwyrick/1346caf2-3b82-45e2-bc00-64351e0d59ae_zpscf0836f2.jpg);
+	*/
+ 	background-size:cover;
+ 	background-attachment:fixed;
+ 	background-position:top;
+ 	z-index: 1;
+}
+
+
+.myWork {
+	font-size: 1.5rem;
+	text-align: center;
+	border: none;
+	padding-top: 25px;
+	width: 100%;
+	line-height: 2.5rem;
+	background-color: rgba(250,250,250,.7);
+	box-shadow: 1px 1px 8px rgba(50,50,50,.9);
+	display: inline-block;
+}
+
+@media (min-width: 700px){
+	.myWork{
+	width: 400px;
+	margin-left: 20%;
+	border: solid 10px RGBA(50, 50, 50, 1);
+	margin-top: 100px;
+	margin-bottom: 100px;
+	line-height: 2.5rem;
+	box-shadow: 1px 1px 1px rgba(50,50,50,.9);
+	}
+}
+
+.experience {
+	margin: 30px 10%;
+}
+
+
+.profile{
+	width: 100%;
+	margin-top: 50px;
+}
+
+@media (min-width: 700px){
+.profile{
+	margin-left:15px;
+	width: 220px;
+	margin-top: 10px;
+	}
+}
+
+.social{
+	 width: 75px;
+	 margin: 20px;
+	 display: inline-block;
+	 border: solid 5px rgba(50,50,50,.0);
+	 border-radius: 100px;
+	 z-index: 2;
+}
+
+.social:hover{
+	transition-property: all;
+	transition-duration: 0.15s;
+	transition-timing-function: ease-in-out;
+	transition-delay: initial;
+	border: solid 5px #fff;
+	border-radius: 100px;
+}
+
+.copyrightImage {
+	margin-left: 25%;
+	padding-bottom: -10px;
+	padding-top: 10px;
+}
+
+@media (min-width: 700px){
+.copyrightImage {
+	margin-left: 5%;
+	padding-bottom: -10px;
+	padding-top: 10px;
+}
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 80%;
+	position: relative;
+	line-height: 1.5rem;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.input{
+	width: 70%;
+}
+
+.close{
+	float:right;
+	font-size: 2rem;
+	margin: 10px 50px;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.cf:after {
+    clear: both;
+}
