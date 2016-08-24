@@ -75,6 +75,13 @@ a {
 	letter-spacing: .1em;
 }
 
+#in{
+	color: rgba(230,230,230,1);
+	margin-right: 25px;
+	padding: 4px 8px;
+	letter-spacing: .1em;
+}
+
 #main{
 	color: rgba(140, 140, 140, 1);
 	margin-right: 25px;
@@ -83,15 +90,15 @@ a {
 }
 
 #account{
-	font-size: 1.25em;
+	font-size: 1em;
 	color: rgba(230,230,230,1);
 	background-color: RGBA(37, 119, 179, 1);
-	padding: 3px 10px 6px 10px;
+	padding: 7px 14px 8px 14px;
 	border: 2px solid rgba(205, 205, 205, 1);
 	border-radius: 20px;
 	margin-right: 35px;
-	margin-top: 10px;
-	font-weight: 300;
+	margin-top: 15px;
+	font-weight: 400;
 }
 
 #title{
@@ -103,8 +110,8 @@ a {
 	width: 800px;
 	line-height: 1.25em;
 	text-align: center;
-	letter-spacing: .11em;
-	word-spacing: .155em;
+	letter-spacing: .09em;
+	word-spacing: .16em;
 }
 
 #subtitle {
