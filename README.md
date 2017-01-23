@@ -1,2 +1,2 @@
 # cjsite
-class project with a loooong ways to go
+perso project with a loooong ways to go

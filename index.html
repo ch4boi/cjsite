@@ -19,6 +19,7 @@
 
 		<div class="navBar">
 			<div class="logoWrap">
+				<img class="logo2" src="Images/cjMini.png">
 				<img class="logo" src="Images/whiteBall0.png">
 				<div class="lettering">
 					<div class="career">CAREER</div>
@@ -26,41 +27,77 @@
 				</div>
 			</div>
 			<div class="nav">
-				<a id="account" href="">Create My Account</a>
-				<a id="main" href="">Home</a>
-				<a id="about" href="">About</a>
-				<a id="in" href="">Sign In</a>
+				<a id="account" href="#" class="btn btn-big openmodale1">Create My Account</a>
+				<a id="main" class="hvr-grow" href="#">Home</a>
+				<a id="about" class="hvr-grow" href="file:///Users/alex/Desktop/gitprojects/cjsite/about.html">About</a>
+				<a id="in" class="hvr-grow openmodale" href="#">Sign In</a>
 			</div>
 		</div>
 
+								<!-- Modal -->
+									<div class="modale" aria-hidden="true">
+									  <div class="modal-dialog">
+									    <div class="modal-header">
+									      <h2>Please Login</h2>
+									      <a href="#" class="btn-close closemodale" aria-hidden="true">&times;</a>
+									    </div>
+									    <div class="modal-body">
+									      <input type="text" name="u" placeholder="User" size="20" /><br>
+									      <input type="text" name="p" placeholder="&bull;&bull;&bull;&bull;" size="20" /></div>
+									  </div>
+									</div>
+								<!-- /Modal -->
+
+								<!-- Modal 1 -->
+									<div class="modale1" aria-hidden="true">
+									  <div class="modal1-dialog">
+									    <div class="modal-header">
+									      <h2>CONCEPT</h2>
+									      <a href="#" class="btn-close closemodale1" aria-hidden="true">&times;</a>
+									    </div>
+									    <div class="modal1-body">
+									     <p>This is just a concept site inspired by a project I worked on at Startup Weekend Amsterdam.
+									     <br>
+									     <br>
+									     If you like this service idea and are interested in discussing the model, <a class="" href="mailto:yo@alexwyrick.com">drop me a line</a>.</p> 
+									     </div>
+									  </div>
+									</div>
+								<!-- /Modal 1 -->
 	</div>
-		<div id="title">The smart career counseler<br>to reach your dream job.</div>
+		
+	<div id="title">The online course counselor<br>to enhance your career.</div>
+		<!-- <div id="title">The smart career counseler<br>to reach your dream job.</div> -->
 		<!-- <div id="title">Smart career counseling<br>for your career jump</div> -->
 		<!-- 	<div id="title">A smart online course counseling<br>to achieve your career goals</div> -->
 		<!-- <div id="title">An online course counselor<br>to enhance your career</div> -->
 		<!-- <div id="title">Your online course coach<br>&amp; data-driven career counselor</div> -->
 
-		<div id="subtitle">Over 10,000 online courses. We know which ones you need.</div>
-		<div class="login"><img src="Images/linkedin.png">
+	<div id="subtitle">Over 10,000 online courses. We know which ones you need.</div>
+		
+	<a href="#">
+		<div class="login hvr-pop openmodale1">
+			<img src=""><span id="Li">in</span>&#160 &#160 sign up with Linkedin
 		</div>
+	</a>
 
 	<div id="mid1">
 		<div class="how">How It Works</div>
 		<div class="point">
 			<img class="icon" src="Images/icon_head.png">
-			<div class="blurb">Tell us who you are and what you want to achieve</div>
-			<a class="learn" href="">learn more...</a>
+			<div class="blurb">Tell us about yourself and your career goals</div>
+			<a class="learn hvr-grow" href="#">learn more...</a>
 		</div>
 		<div class="point">
 			<img class="icon" src="Images/icon_gears.png">
 			<!-- <div class="blurb">We crunch the data with experts and machine learning</div> -->
 			<div class="blurb">We crunch the data with advanced machine learning</div>
-			<a class="learn" href="">learn more...</a>
+			<a class="learn hvr-grow" href="#">learn more...</a>
 		</div>
 		<div class="point">
 			<img class="icon" src="Images/icon_prize.png">
 			<div class="blurb">Get a custom list of courses to reach goals faster</div>
-			<a class="learn" href="">learn more...</a>
+			<a class="learn hvr-grow" href="#">learn more...</a>
 		</div>
 	</div>
 
@@ -71,8 +108,23 @@
 		<div id="takeAction">Invest in your future today!</div>
 		<div id="detail">Find the best online courses and get personalized<br>coaching
 to reach your dream job faster</div>
-		<div class="login"><img src="Images/linkedin.png">
+	
+	<a href="#">
+		<div class="login hvr-pop">
+			<img src=""><span id="Li">in</span>&#160 &#160 sign up with Linkedin
 		</div>
+	</a>
+
+	<div id="bottomNav">
+		<a id="designed" target="_blank" href="https://www.linkedin.com/in/alexanderwyrick">Alex Wyrick (2016) &nbsp; &nbsp; &nbsp; &nbsp; -</a>
+		<a id="aboutMe" class="" href="http://alexwyrick.com/">About</a>
+		<a id="contact" class="" href="mailto:yo@alexwyrick.com">Contact</a>
+	</div>
+
+<!-- scripts -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="js/index.js"></script>
+<!-- scripts -->
 
 </body>
 
